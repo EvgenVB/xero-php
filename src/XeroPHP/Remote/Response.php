@@ -357,4 +357,9 @@ class Response
     {
         parse_str($this->response_body, $this->oauth_response);
     }
+    
+    public function getHeaders()
+    {
+        return $this->headers;
+    }
 }
