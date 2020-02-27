@@ -201,4 +201,8 @@ class Request
 
         return $this;
     }
+    
+    public function getApp() {
+        return $this->app;
+    }
 }
